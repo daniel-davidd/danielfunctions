@@ -6,6 +6,11 @@ tags:
   - tag: tag3
 runtime: nodejs
 dependencies: package.json
+environment_vars:
+  - name: ENV_1
+    value: env1
+  - name: ENV_1
+    value: env2
 memory: 128
 storage: 128
 handler: index.handler
