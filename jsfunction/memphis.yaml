@@ -1,0 +1,11 @@
+function_name: jsfunction
+description: This is a description
+tags:
+  - tag: tag1
+  - tag: tag2
+  - tag: tag3
+runtime: nodejs
+dependencies: package.json
+memory: 128
+storage: 128
+handler: index.handler
