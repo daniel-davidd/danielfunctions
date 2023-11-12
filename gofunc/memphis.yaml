@@ -1,0 +1,16 @@
+function_name: gofunc
+description: This is a description
+tags:
+  - tag: tag1
+  - tag: tag2
+  - tag: tag3
+runtime: go
+dependencies: package.json
+environment_vars:
+  - name: ENV_1
+    value: env1
+  - name: ENV_1
+    value: env2
+memory: 128
+storage: 128
+handler: bootstrap
